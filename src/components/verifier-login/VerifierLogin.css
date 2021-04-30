@@ -1,0 +1,11 @@
+.login-verifier-background {
+  background-image: url("../../assets/images/verifier.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+}
+.loging-verifier-padding {
+  padding-bottom: 80px;
+  padding-top: 10px;
+}

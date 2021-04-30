@@ -1,0 +1,21 @@
+.active {
+  color: rgb(0, 68, 255) !important;
+  background-color: rgba(192, 218, 243, 0.356) !important;
+  border-right: 4px solid rgb(11, 68, 224) !important;
+}
+.tab-pane {
+  background-color: transparent !important;
+  border: none !important;
+}
+.nav-link {
+  text-align: left !important;
+  border-radius: 0px !important;
+  transition: transform 550ms;
+}
+.nav-link:hover {
+  transform: scale(1.1);
+}
+.images {
+  max-width: 50%;
+  margin-left: 15%;
+}

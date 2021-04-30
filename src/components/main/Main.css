@@ -1,0 +1,57 @@
+.end-to-end-text {
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 20%;
+  margin-left: 25px;
+}
+.stockbroker-text {
+  margin-left: 25px;
+  margin-bottom: 25px;
+}
+.stock-btn {
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.stock-image {
+  animation: zoomin 1s linear;
+  animation-delay: 2s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+@keyframes zoomin {
+  0% {
+    transform: scale(0.5);
+    visibility: visible;
+  }
+  100% {
+    transform: scale(1);
+    visibility: visible;
+  }
+}
+.zoom-right {
+  animation: moveright 1s linear;
+  animation-delay: 1s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+@keyframes moveright {
+  0% {
+    transform: translateX(-100px);
+    visibility: visible;
+  }
+  100% {
+    transform: translateY(0px);
+    visibility: visible;
+  }
+}
+@media screen and (max-width: 480px) and (min-width: 0px) {
+  .stock-image {
+    width: 90%;
+  }
+  .end-to-end-text {
+    font-size: 200%;
+  }
+  .stockbroker-text {
+    font-size: 100%;
+  }
+}

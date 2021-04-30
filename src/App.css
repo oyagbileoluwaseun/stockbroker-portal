@@ -1,0 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Orelega+One&family=Oswald&family=Roboto&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+}
+.App {
+  overflow-x: hidden;
+}
